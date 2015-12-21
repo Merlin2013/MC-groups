@@ -20,7 +20,10 @@ It's actually pretty easy. There are a few dependencies needed by the code: ```m
 
 This code will make inference on the test data and display results, features and learning is already precomputed.
 
-Once you are familiar with the testing, you can also try to retrain the model using the same or different data/feature set. This can be done throuh ```DEMO_train.m```. As before, just hit run!
+Once you are familiar with the testing, you can also try to retrain the model using the same or different data/feature set. This can be done throuh ```DEMO_train.m```. As before, just hit run! If everything is fine, the training should yeld something like this:
+![](http://www.francescosolera.com/images/github/TCSVT_2016_convergence_github.png)
+
+**Visualization requires the dataset images, which will be released shortly. In the mean time you can still train/test the algorithm.**
 
 <!-- ## How to cite
 ```
