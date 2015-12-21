@@ -12,7 +12,7 @@ The proposed solution formulates the group tracking problem as a supervised Corr
 The clustering solution depends on the way correlations are defined. We let the SSVM learn a correlation score which linearly combine the contribution of different features. Details about the learning procedure can be found in the paper.
 
 ## How to run the code
-It's actually pretty easy. There are a few dependencies needed by the code: ```mexopencv``` by [Kota Yamaguchi](https://github.com/kyamagu/mexopencv), ```gurobi``` optimizer [here](https://github.com/kyamagu/mexopencv) and ```vlfeat``` by [Andrea Vedaldi](http://www.vlfeat.org). Once dependecies have been installed, you can start from the ```DEMO_test.m``` file.
+It's actually pretty easy. There are a few dependencies needed by the code: ```mexopencv``` by [Kota Yamaguchi](https://github.com/kyamagu/mexopencv), ```gurobi``` optimizer [here](https://github.com/kyamagu/mexopencv) and ```vlfeat``` by [Andrea Vedaldi](http://www.vlfeat.org). Once dependecies have been installed, you can start from the ```DEMO_test.m```:
 
 - download the code
 - look for the ```DEMO_test.m``` file
@@ -20,7 +20,7 @@ It's actually pretty easy. There are a few dependencies needed by the code: ```m
 
 This code will make inference on the test data and display results, features and learning is already precomputed.
 
-Once you are familiar with the testing, you can also try to retrain the model using the same or different data/features. This can be done throuh ```DEMO_train.m```. As before, just hit run!
+Once you are familiar with the testing, you can also try to retrain the model using the same or different data/feature set. This can be done throuh ```DEMO_train.m```. As before, just hit run!
 
 <!-- ## How to cite
 ```
