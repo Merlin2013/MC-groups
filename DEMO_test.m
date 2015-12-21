@@ -27,7 +27,7 @@ final_prediction = createConsistentSolution(X_groups_test, y_bar);
 [f1, pr, re] = MITRE_score(final_prediction, Y_tracking_all);
 fprintf('Results on test set:\n--------------------\n%2.2f precision\n%2.2f recall\n%2.2f F-1 score\n', pr, re, f1);
 
-%% show results
+%% show results (requires data set images - to be released shortly!)
 show_frms = [10000 46000];  % limits to [10000 46000]
 show_cams = [4 2 5 1];      % cameras are numbered 1,2,4,5
 
