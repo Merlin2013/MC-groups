@@ -4,7 +4,7 @@ Groups are considered by modern sociological crowd theories the atomic entities 
 The proposed solution formulates the group tracking problem as a supervised Correlation Clustering (CC) problem. Eventually, every cluster should contain all and only observation refering to the same group. A Structural SVM (SSVM) classifier is used to learn a proper similarity measure balancing the contribution of different features (HSV, SIFT, ...), leaving the algorithm with no parameters to tune. Multi-Camera group tracking is handled inside the framework by adopting an orthogonal feature encoding allowing the classifier to learn different feature weights for inter- and intra-cameras associations.
 
 ## Overview of the inference procedure
-![](http://www.francescosolera.com/images/github/TCSVT_2016_github.jpg)
+![](http://www.francescosolera.com/images/github/TCSVT_2016_github_wholepage.jpg)
 
 1. In the image targets are represented by bird eye view sketches (shaded when occluded)
 and detections by crosses.
