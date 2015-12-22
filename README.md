@@ -23,7 +23,11 @@ This code will make inference on the test data and display results, features and
 Once you are familiar with the testing, you can also try to retrain the model using the same or different data/feature set. This can be done throuh ```DEMO_train.m```. As before, just hit run! If everything is fine, the training should yeld something like this:
 ![](http://www.francescosolera.com/images/github/TCSVT_2016_convergence_github.png)
 
-**Visualization requires the dataset images, which will be released shortly. In the mean time you can still train/test the algorithm.**
+**Visualization requires the dataset images, which will be released shortly. In the mean time you can still train/test the algorithm and see the results on the youtube video (link below).**
+
+<span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</span>
+[![](http://www.francescosolera.com/images/github/TCSVT_2016_video.gif)](https://youtu.be/Rl3G7fNcLT8)
+
 
 <!-- ## How to cite
 ```
